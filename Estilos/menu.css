@@ -1,0 +1,59 @@
+﻿
+#menu
+{
+    height: 38px;
+    padding: 15px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+#menu
+{
+    margin:0 auto;
+}
+#menu ul 
+{ 
+    position: relative;
+    list-style-type: none;
+    float:left;
+    padding:0;
+    margin:0;
+}
+#menu li
+{
+    float:left;
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    background-image:none;
+    cursor: pointer;
+
+}
+/*CSS for background bubble*/
+#menu li.highlight
+{
+    border:solid 1px #004E9B;
+    background-color:White;
+    top:0px;
+    height:30px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    z-index: 1;
+    position: absolute;
+    overflow:hidden;
+}
+#menu li a
+{
+    height:30px;
+    padding-top: 8px;
+    margin: 0 20px;
+    color: Black;
+    font: normal 12px arial;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 2;
+}

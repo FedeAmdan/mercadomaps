@@ -1,0 +1,116 @@
+﻿#encabezado
+{
+  border-radius: 20px;
+  background-color:#ffe809;
+  text-align:center;
+  width:91%;
+  height:135px;
+  font-family:@Magneto;
+  color:Black;
+  /*margin-left:280px;*/
+  /*position:relative;*/
+  /*width: 70%;*/
+  margin: 0 auto;
+}
+#imagenTitulo
+{
+    height: 79px;
+    width: 389px;
+}
+h2
+{
+      text-align:center;
+      /*font-family:@Magneto;
+      color:White;*/
+}
+
+#inicio,#mision,#quienSoy
+{
+    position:absolute;
+}
+#ImagenClientes
+{
+    width: 250px;
+    height: 250px;
+    /*margin: 0 auto;*/
+}
+#clienteFoto
+{
+    /*width:80%;*/
+    text-align:center;
+    margin: 0 auto;
+}
+
+.firstHeading
+{
+    text-align:center;
+}
+
+
+table
+{
+  border-collapse: collapse;
+}
+
+th
+{
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 0.5em;
+  background-color:#6495ed;;
+}
+
+thead th
+{
+  background-color:rgb(237, 100, 100);
+  color: #fff;
+}
+
+tbody th
+{
+  font-family:arial;
+  font-weight: normal;
+  background-color: rgb(237, 100, 100);
+  color:#ff0;
+}
+
+td {
+  border: 1px solid #000;
+  padding: .5em;
+  background-color:rgb(247, 182, 151);
+
+  text-align:center;
+}
+
+  html { height: 100% }
+  body { height: 100%; margin: 0px; padding: 0px }
+  #map_canvas { height: 100% }
+#botonBuscar
+{
+    background-color:#2f33ae;
+    border: 1px solid #2c3176;
+color: #fff;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.75);
+}
+
+
+#mision, #quienSoy
+{
+    font-family: "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+.superHeader
+{
+    text-align:center;
+    width: 80%; 
+    margin:0 auto;
+    font-size: 2.25em;
+    font-weight: bold;
+    padding-top: .5em;
+    border-bottom: 3px solid #888;
+    color: #0b7495;
+    -webkit-box-reflect: below -0.556em -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.3, transparent), color-stop(0.7, rgba(255, 255, 255, 0.1)), to(transparent));
+}
+#consideracionesTexto
+{
+    
+}
